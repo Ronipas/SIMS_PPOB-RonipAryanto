@@ -1,0 +1,176 @@
+
+.Wrapper {
+    display: grid;
+    grid-template-columns: 55% 43%;
+   
+    width: 90%;
+    
+}
+
+.ContainerForm {
+    
+    margin: auto;
+    display: flex;
+   
+    flex-direction: column;
+    background-color: white;
+    padding-bottom: 30px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.Header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.Header h3 {
+    width: 60%;
+    text-align: center;
+    line-height: 25px;
+    font-family:Arial, Helvetica, sans-serif;
+    letter-spacing: 0.7px;
+  
+}
+
+.judul {
+    color: #000;
+    font-size: 20px;
+    font-weight: 700;
+    background-image: url(../../assets/Logo.png);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    padding: 0px 25px;
+    background-position: 0 2px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.inputs {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+   
+    
+}
+
+
+
+
+
+.Footer {
+    margin-top: 50px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    
+}
+.submit {
+    width: 370px;
+    height: 40px;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+}
+
+.text-registrasi {
+    margin-top: 20px;
+    font-size: 12px;
+    font-weight: 500;
+    color: #6f6f6f;
+    
+}
+
+.text-registrasi a {
+   color: red;
+   cursor: pointer;
+   font-weight: 700;
+   
+    
+}
+
+
+.email{
+    background-image: url(../../assets/email.png)  ;
+    width: 370px;
+    height: 40px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 12px;
+    
+    background-size: 12px;
+    background-position: 11px 12px; 
+    background-repeat: no-repeat;
+     padding: 12px 20px 12px 40px;
+}
+.password{
+    
+    background-image: url(../../assets/password.png) ;
+    width: 370px;
+    height: 40px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 12px;
+    
+    background-size: 12px;
+    background-position: 11px 12px; 
+    background-repeat: no-repeat;
+     padding: 12px 20px 12px 40px;
+}
+.passwordField {
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.eye {
+    width: 105px;
+    margin-left: 340px;
+    position: absolute;    
+    cursor: pointer;
+}
+
+
+
+
+.user{
+    background-image: url(../../assets/user.png) ;
+    width: 370px;
+    height: 40px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 12px;
+    
+    background-size: 12px;
+    background-position: 11px 12px; 
+    background-repeat: no-repeat;
+     padding: 12px 20px 12px 40px;
+}
+
+.gambar img {
+    width: 100%;
+    margin: 0;
+    height: 700px;
+    
+}
+ span {
+    color: #e74c3c;
+    font-size: 13px;
+    margin-top: -18px;
+    display: block;
+  
+    position:relative;
+    
+  }

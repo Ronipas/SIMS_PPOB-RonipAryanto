@@ -1,0 +1,199 @@
+.Wrapper {
+    width: 100%;
+    margin: 0;
+
+}
+
+.Container {
+    padding: 20px 50px;
+   position: absolute;
+   display: grid;
+    margin-left: 50px;
+    margin-top: 80px;
+ 
+
+    grid-template-columns: [col1] 33% [col2] 67% ;
+
+    grid-gap: 10px;
+
+    grid-template-rows: [row1] 33%  ;
+    
+    
+}
+
+.header{
+    width: 100%;
+    margin-left: 100px;
+    line-height: 25px;
+}
+
+.Grid1 {
+    
+    margin-bottom: 10px;
+   
+}
+
+
+.TabelNominal{
+    background-image: url(../../assets/topup.png) ;
+    width: 700px;
+    height: 40px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 12px;
+  
+    background-size: 12px;
+    background-position: 11px 12px; 
+    background-repeat: no-repeat;
+     padding: 12px 20px 12px 40px;
+}
+
+.NilaiNominal {
+    
+    display: grid;
+    grid-template-columns: repeat(3,2fr);
+    position: relative;
+    width: 40%;
+    margin-left: 300px;
+    gap: 20px 0px;
+    margin-bottom: 40px;
+}
+
+button {
+   
+    width: 100px;
+    height: 40px;
+  
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    color:rgb(98, 98, 98);
+    border-radius: 4px;
+    font-size: 12px;
+    cursor: pointer;
+    background-color: #fff;
+}
+
+.NilaiNominal button:active {
+    background-color: #a5a7a5;
+    box-shadow: 0 2px #666;
+    transform: translateY(1px);
+}
+
+.NilaiNominal button:hover {
+    background-color: #eceeec
+}
+
+.Grid2 {
+    margin-top: -9px;
+    gap: 20px;
+}
+.BtnSubmit {
+    width: 700px;
+    height: 40px;
+    border-width: 0;
+    color: #fff;
+    border-radius: 3px;
+    background-color: rgb(177, 174, 174);
+    cursor: pointer;
+}
+
+
+.BtnSubmit:active {
+    background-color: #a5a7a5;
+    box-shadow: 0 5px #666;
+    transform: translateY(3px);
+}
+.BtnSubmit:hover {
+    background-color: #929392
+}
+
+@media screen and (max-width:1300px) {
+
+    .Container{
+        display: block;
+    }
+    
+    .NilaiNominal  {
+    display: flex;
+    grid-template-columns: repeat(1,6fr);
+    gap: 30px;
+    margin-left: 0px;
+    
+    }
+    Button {
+        width: 300px;
+
+    }
+    
+}
+@media screen and (max-width:860px) {
+    
+
+    .TabelNominal {
+        width: 500px;
+    }
+    .BtnSubmit {
+        width: 500px;
+    }
+    .Grid2 {
+        display: block;
+        
+    }
+    .NilaiNominal  {
+        display: grid;
+        grid-template-columns: repeat(2,3fr);
+        gap:10px;
+        margin-left: 0px;
+        
+        }
+        Button {
+            width: 200px;
+    
+        }
+}
+
+@media screen and (max-width:650px) {
+    
+
+    .TabelNominal {
+        width: 400px;
+    }
+    .BtnSubmit {
+        width: 400px;
+    }
+    .NilaiNominal  {
+        display: grid;
+        grid-template-columns: repeat(2,3fr);
+        gap: 30px;
+        margin-left: 0px;
+        
+        }
+        Button {
+            width: 185px;
+    
+        }
+}
+
+@media screen and (max-width:478px) {
+    
+
+    .TabelNominal {
+        width: 250px;
+    }
+    .BtnSubmit {
+        width: 250px;
+    }
+    .NilaiNominal  {
+        display: grid;
+        grid-template-columns: repeat(2,3fr);
+        gap: 25px;
+        margin-left: 0px;
+      
+        
+        }
+        Button {
+            width: 150px;
+    
+        }
+}
