@@ -1,9 +1,9 @@
 
 .Wrapper {
     display: grid;
-    grid-template-columns: 55% 43%;
-   
-    width: 90%;
+    grid-template-columns: 95% 18%;
+    
+    width: 80%;
     
 }
 
@@ -11,12 +11,10 @@
     
     margin: auto;
     display: flex;
-   
+
     flex-direction: column;
     background-color: white;
     padding-bottom: 30px;
-    align-items: center;
-    justify-content: center;
 
 }
 
@@ -56,11 +54,11 @@
     margin-top: 50px;
     display: flex;
     flex-direction: column;
-    gap: 20px;
-   
+    gap: 25px;
+    
+    align-items: center;
     
 }
-
 
 
 
@@ -69,12 +67,11 @@
     margin-top: 50px;
     align-items: center;
     text-align: center;
-    justify-content: center;
     
 }
 .submit {
-    width: 370px;
-    height: 40px;
+    width: 400px;
+    height: 50px;
     background-color: red;
     border: none;
     border-radius: 5px;
@@ -87,10 +84,9 @@
     font-size: 12px;
     font-weight: 500;
     color: #6f6f6f;
-    
 }
 
-.text-registrasi a {
+.text-registrasi span {
    color: red;
    cursor: pointer;
    font-weight: 700;
@@ -101,60 +97,27 @@
 
 .email{
     background-image: url(../../assets/email.png)  ;
-    width: 370px;
-    height: 40px;
+    width: 400px;
     box-sizing: border-box;
     border: 2px solid #ccc;
     border-radius: 4px;
-    font-size: 12px;
+    font-size: 13px;
     
-    background-size: 12px;
-    background-position: 11px 12px; 
+    background-size: 13px;
+    background-position: 11px 13px; 
     background-repeat: no-repeat;
      padding: 12px 20px 12px 40px;
 }
 .password{
-    
     background-image: url(../../assets/password.png) ;
-    width: 370px;
-    height: 40px;
+    width: 400px;
     box-sizing: border-box;
     border: 2px solid #ccc;
     border-radius: 4px;
-    font-size: 12px;
+    font-size: 13px;
     
-    background-size: 12px;
-    background-position: 11px 12px; 
-    background-repeat: no-repeat;
-     padding: 12px 20px 12px 40px;
-}
-.passwordField {
-    display: flex;
-    justify-content: space-between;
-   
-}
-
-.eye {
-    width: 105px;
-    margin-left: 340px;
-    position: absolute;    
-    cursor: pointer;
-}
-
-
-
-
-.user{
-    background-image: url(../../assets/user.png) ;
-    width: 370px;
-    height: 40px;
-    box-sizing: border-box;
-    border: 2px solid #ccc;
-    border-radius: 4px;
-    font-size: 12px;
-    
-    background-size: 12px;
-    background-position: 11px 12px; 
+    background-size: 13px;
+    background-position: 11px 13px; 
     background-repeat: no-repeat;
      padding: 12px 20px 12px 40px;
 }
@@ -162,15 +125,34 @@
 .gambar img {
     width: 100%;
     margin: 0;
-    height: 700px;
-    
+    height: auto;
 }
- span {
-    color: #e74c3c;
-    font-size: 13px;
-    margin-top: -18px;
-    display: block;
-  
-    position:relative;
-    
-  }
+.passwordField {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.eye {
+    width: 15px;
+    margin-left: 340px;
+    position: absolute;    
+    cursor: pointer;
+}
+
+
+@media screen and (max-width:900px) {
+    .Wrapper {
+        display: flex;
+        flex-direction: column;
+
+    }
+    .ContainerForm {
+        display: block;
+        flex-direction: column;
+    }
+    .gambar img {
+        display: block;
+        flex-direction: column;
+    }
+}

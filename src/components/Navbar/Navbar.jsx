@@ -1,13 +1,15 @@
 import React, { useState } from "react";
 
+// import style from "./Navbar.module.css";
 import "./Navbar.css";
 import { Link, NavLink } from "react-router-dom";
 import logo from './../../assets/logo.png'
 
-export const Navbar = () => {
+const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
+    <>
     <nav>
       <Link to="/home" className="title">
         <img src={logo} alt="" />
@@ -20,15 +22,18 @@ export const Navbar = () => {
       </div>
       <ul className={menuOpen ? "open" : ""}>
         <li>
-          <NavLink to="/Top-Up">Top Up</NavLink>
+          <NavLink to="/topup">Top Up</NavLink>
         </li>
         <li>
-          <NavLink to="/Transaction">Transaction</NavLink>
+          <NavLink to="/transaksi">Transaksi</NavLink>
         </li>
         <li>
-          <NavLink to="/Akun">Akun</NavLink>
+          <NavLink to="/akun">Akun</NavLink>
         </li>
       </ul>
     </nav>
+    </>
   );
 };
+
+export default Navbar

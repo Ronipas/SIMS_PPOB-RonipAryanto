@@ -26,6 +26,7 @@ const Header = () => {
 
         <h3>Saldo Anda</h3>
         <h2>Rp.150.000.000</h2>
+        
 
         <p>Lihat Saldo</p>
         </div>

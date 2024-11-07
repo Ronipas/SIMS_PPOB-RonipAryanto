@@ -1,29 +1,29 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
-import { Navbar } from "./components/Navbar/Navbar";
-import { Home, Akun } from "./pages";
+
+import  {Home} from "./pages";
 import TopUp from "./pages/TopUp";
 import  Login  from "./pages/Login";
-import { Register } from "./pages/Register";
+import  Akun  from "./pages/Akun";
+import  Register from "./pages/Register";
 import Transaction from "./pages/Transaction";
 
 
-function App() {
+const App = () => {
   return (
   
      <>
-     
-      <Navbar />
+
       <Routes>
-      <Route path="/" index  element={<Login/>} />
+      <Route index  element={<Login/>} />
+      <Route path="/login" element={<Login/>} />
       <Route path="/register" element={<Register/>} /> 
-         <Route path="/home" element={<Home />} />
-        <Route path="/Top-Up" element={<TopUp />} />
-        <Route path="/Transaction" element={<Transaction />} />
-        <Route path="/Akun" element={<Akun />} />
+      <Route path="/home" element={<Home />} />
+      <Route path="/topup" element={<TopUp />} />
+      <Route path="/transaksi" element={<Transaction />} />
+      <Route path="/akun" element={<Akun />} />
         
-        
-       
+
       </Routes>
      
       </>

@@ -34,6 +34,7 @@
     margin-top: 20px;
     display: grid;
     grid-template-columns: repeat(2,2fr);
+   
     
 }
 
@@ -51,15 +52,18 @@
 
 
 .Keterangan {
-    margin-left: 450px;
+    margin-left: 0px;
     font-size: 15px;
-    width: 20%;
-    padding: 0 20px;
+    justify-content: end;
+    width: 100%; 
+    
+   
+    text-align: end;
 
 }
 .Saldo {
     font-size: 25px;
-    color: rgb(8, 176, 174);
+    color: rgb(2, 151, 114);
     
    
 }
@@ -73,26 +77,3 @@
     
 }
 
-
-@media screen and (max-width:1300px) {
-
-    
-    
-    
-}
-@media screen and (max-width:860px) {
-    
-
-    
-}
-
-@media screen and (max-width:650px) {
-    
-
-}
-
-@media screen and (max-width:478px) {
-    
-
-    
-}

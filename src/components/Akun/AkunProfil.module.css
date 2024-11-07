@@ -1,0 +1,102 @@
+.Wrapper {
+    width: 100%;
+    margin: 0;
+
+}
+
+.Container {
+    
+    margin-top: 20px;
+    text-align: center;
+    display: block;
+    
+
+    
+    
+}
+
+.HeaderAkun{
+    width: 100%;
+    margin-left: 0px;
+    line-height: 25px;
+
+   
+}
+
+
+img {
+    width: 80px;
+}
+
+.FormProfil {
+    display: flex;
+   margin-top: 50px;
+    flex-direction: column;
+    gap: 30px;
+    
+    
+    align-items: center;
+    text-align: center;
+    
+}
+
+
+.email{
+    background-image: url(../../assets/email.png)  ;
+    width: 370px;
+    height: 40px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 12px;
+    
+    background-size: 12px;
+    background-position: 11px 12px; 
+    background-repeat: no-repeat;
+     padding: 12px 20px 12px 40px;
+}
+
+.user{
+    background-image: url(../../assets/user.png) ;
+    width: 370px;
+    height: 40px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 12px;
+    
+    background-size: 12px;
+    background-position: 11px 12px; 
+    background-repeat: no-repeat;
+     padding: 12px 20px 12px 40px;
+}
+
+.Footer {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 200px;
+    
+    
+}
+
+
+.EditProfil {
+width: 370px;
+height: 40px;
+box-sizing: border-box;
+border: 1px solid #910505;
+border-radius: 4px;
+cursor: pointer;
+color: #990505;
+}
+
+.Logout {
+    width: 370px;
+    height: 40px;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+}
+
